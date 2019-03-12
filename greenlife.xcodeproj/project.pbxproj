@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,11 +17,11 @@
 		CC12DC242223F0FD00DDBBC8 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC1F2223F0FD00DDBBC8 /* ReactiveCocoa.framework */; };
 		CC12DC252223F0FD00DDBBC8 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC202223F0FD00DDBBC8 /* ReactiveSwift.framework */; };
 		CC12DC282223F0FE00DDBBC8 /* AlamofireNetworkActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC232223F0FD00DDBBC8 /* AlamofireNetworkActivityIndicator.framework */; };
-		CC12DC3B2224C84000DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC12DC362224C83F00DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM */; };
-		CC12DC3C2224C84000DDBBC8 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC12DC372224C83F00DDBBC8 /* Alamofire.framework.dSYM */; };
-		CC12DC3D2224C84000DDBBC8 /* ReactiveCocoa.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC12DC382224C83F00DDBBC8 /* ReactiveCocoa.framework.dSYM */; };
-		CC12DC3E2224C84000DDBBC8 /* Result.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC12DC392224C84000DDBBC8 /* Result.framework.dSYM */; };
-		CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC12DC3A2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM */; };
+		CC12DC3B2224C84000DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC362224C83F00DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM */; };
+		CC12DC3C2224C84000DDBBC8 /* Alamofire.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC372224C83F00DDBBC8 /* Alamofire.framework.dSYM */; };
+		CC12DC3D2224C84000DDBBC8 /* ReactiveCocoa.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC382224C83F00DDBBC8 /* ReactiveCocoa.framework.dSYM */; };
+		CC12DC3E2224C84000DDBBC8 /* Result.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC392224C84000DDBBC8 /* Result.framework.dSYM */; };
+		CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC3A2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM */; };
 		CC652E3D222932E40011A53C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC222223F0FD00DDBBC8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC652E3F222932E40011A53C /* AlamofireNetworkActivityIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC232223F0FD00DDBBC8 /* AlamofireNetworkActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC652E41222932E40011A53C /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC1F2223F0FD00DDBBC8 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -29,6 +29,8 @@
 		CC652E45222932E40011A53C /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC212223F0FD00DDBBC8 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC652E47222933B10011A53C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC222223F0FD00DDBBC8 /* Alamofire.framework */; };
 		CC652E48222933B10011A53C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC212223F0FD00DDBBC8 /* Result.framework */; };
+		CC652E7C22378C150011A53C /* frameworks_output.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = CC652E7B22378C150011A53C /* frameworks_output.xcfilelist */; };
+		CC652E7D22378C1B0011A53C /* frameworks_input.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = CC652E7A22378B690011A53C /* frameworks_input.xcfilelist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CC12DC2A2223F26300DDBBC8 /* CopyFiles */ = {
+		CC12DC2A2223F26300DDBBC8 /* Copy dSYM Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				CC12DC3B2224C84000DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM in CopyFiles */,
-				CC12DC3C2224C84000DDBBC8 /* Alamofire.framework.dSYM in CopyFiles */,
-				CC12DC3D2224C84000DDBBC8 /* ReactiveCocoa.framework.dSYM in CopyFiles */,
-				CC12DC3E2224C84000DDBBC8 /* Result.framework.dSYM in CopyFiles */,
-				CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in CopyFiles */,
+				CC12DC3B2224C84000DDBBC8 /* AlamofireNetworkActivityIndicator.framework.dSYM in Copy dSYM Files */,
+				CC12DC3C2224C84000DDBBC8 /* Alamofire.framework.dSYM in Copy dSYM Files */,
+				CC12DC3D2224C84000DDBBC8 /* ReactiveCocoa.framework.dSYM in Copy dSYM Files */,
+				CC12DC3E2224C84000DDBBC8 /* Result.framework.dSYM in Copy dSYM Files */,
+				CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in Copy dSYM Files */,
 			);
+			name = "Copy dSYM Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CC652E46222932E50011A53C /* Embed Frameworks */ = {
@@ -104,6 +107,8 @@
 		CC12DC382224C83F00DDBBC8 /* ReactiveCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveCocoa.framework.dSYM; path = Carthage/Build/iOS/ReactiveCocoa.framework.dSYM; sourceTree = "<group>"; };
 		CC12DC392224C84000DDBBC8 /* Result.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Result.framework.dSYM; path = Carthage/Build/iOS/Result.framework.dSYM; sourceTree = "<group>"; };
 		CC12DC3A2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReactiveSwift.framework.dSYM; path = Carthage/Build/iOS/ReactiveSwift.framework.dSYM; sourceTree = "<group>"; };
+		CC652E7A22378B690011A53C /* frameworks_input.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = frameworks_input.xcfilelist; sourceTree = "<group>"; };
+		CC652E7B22378C150011A53C /* frameworks_output.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = frameworks_output.xcfilelist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +172,8 @@
 				CC12DBF72223E85600DDBBC8 /* Assets.xcassets */,
 				CC12DBF92223E85600DDBBC8 /* LaunchScreen.storyboard */,
 				CC12DBFC2223E85600DDBBC8 /* Info.plist */,
+				CC652E7A22378B690011A53C /* frameworks_input.xcfilelist */,
+				CC652E7B22378C150011A53C /* frameworks_output.xcfilelist */,
 			);
 			path = greenlife;
 			sourceTree = "<group>";
@@ -224,8 +231,8 @@
 				CC12DBEA2223E85500DDBBC8 /* Frameworks */,
 				CC12DBEB2223E85500DDBBC8 /* Resources */,
 				CC12DC292223F13000DDBBC8 /* Copy Frameworks */,
-				CC12DC2A2223F26300DDBBC8 /* CopyFiles */,
 				CC652E46222932E50011A53C /* Embed Frameworks */,
+				CC12DC2A2223F26300DDBBC8 /* Copy dSYM Files */,
 			);
 			buildRules = (
 			);
@@ -322,7 +329,9 @@
 			files = (
 				CC12DBFB2223E85600DDBBC8 /* LaunchScreen.storyboard in Resources */,
 				CC12DBF82223E85600DDBBC8 /* Assets.xcassets in Resources */,
+				CC652E7C22378C150011A53C /* frameworks_output.xcfilelist in Resources */,
 				CC12DBF62223E85500DDBBC8 /* Main.storyboard in Resources */,
+				CC652E7D22378C1B0011A53C /* frameworks_input.xcfilelist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,23 +358,15 @@
 			files = (
 			);
 			inputFileListPaths = (
+				"$(SRCROOT)/frameworks_input.xcfilelist",
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AlamofireNetworkActivityIndicator.framework",
 			);
 			name = "Copy Frameworks";
 			outputFileListPaths = (
+				"$(SRCROOT)/frameworks_output.xcfilelist",
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework ",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireNetworkActivityIndicator.framework ",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
