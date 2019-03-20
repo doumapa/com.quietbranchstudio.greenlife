@@ -22,11 +22,6 @@
 		CC12DC3D2224C84000DDBBC8 /* ReactiveCocoa.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC382224C83F00DDBBC8 /* ReactiveCocoa.framework.dSYM */; };
 		CC12DC3E2224C84000DDBBC8 /* Result.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC392224C84000DDBBC8 /* Result.framework.dSYM */; };
 		CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in Copy dSYM Files */ = {isa = PBXBuildFile; fileRef = CC12DC3A2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM */; };
-		CC652E3D222932E40011A53C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC222223F0FD00DDBBC8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CC652E3F222932E40011A53C /* AlamofireNetworkActivityIndicator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC232223F0FD00DDBBC8 /* AlamofireNetworkActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CC652E41222932E40011A53C /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC1F2223F0FD00DDBBC8 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CC652E43222932E40011A53C /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC202223F0FD00DDBBC8 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CC652E45222932E40011A53C /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC212223F0FD00DDBBC8 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC652E47222933B10011A53C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC222223F0FD00DDBBC8 /* Alamofire.framework */; };
 		CC652E48222933B10011A53C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12DC212223F0FD00DDBBC8 /* Result.framework */; };
 		CC652E7C22378C150011A53C /* frameworks_output.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = CC652E7B22378C150011A53C /* frameworks_output.xcfilelist */; };
@@ -64,21 +59,6 @@
 				CC12DC3F2224C84000DDBBC8 /* ReactiveSwift.framework.dSYM in Copy dSYM Files */,
 			);
 			name = "Copy dSYM Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC652E46222932E50011A53C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CC652E3D222932E40011A53C /* Alamofire.framework in Embed Frameworks */,
-				CC652E41222932E40011A53C /* ReactiveCocoa.framework in Embed Frameworks */,
-				CC652E45222932E40011A53C /* Result.framework in Embed Frameworks */,
-				CC652E3F222932E40011A53C /* AlamofireNetworkActivityIndicator.framework in Embed Frameworks */,
-				CC652E43222932E40011A53C /* ReactiveSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -231,7 +211,6 @@
 				CC12DBEA2223E85500DDBBC8 /* Frameworks */,
 				CC12DBEB2223E85500DDBBC8 /* Resources */,
 				CC12DC292223F13000DDBBC8 /* Copy Frameworks */,
-				CC652E46222932E50011A53C /* Embed Frameworks */,
 				CC12DC2A2223F26300DDBBC8 /* Copy dSYM Files */,
 			);
 			buildRules = (
@@ -358,13 +337,13 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"$(SRCROOT)/frameworks_input.xcfilelist",
+				"$(SRCROOT)/greenlife/frameworks_input.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "Copy Frameworks";
 			outputFileListPaths = (
-				"$(SRCROOT)/frameworks_output.xcfilelist",
+				"$(SRCROOT)/greenlife/frameworks_output.xcfilelist",
 			);
 			outputPaths = (
 			);
